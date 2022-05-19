@@ -1,0 +1,23 @@
+{
+  "name": "rust-solana-defi",
+  "version": "1.0.0",
+  "description": "<img src=\"https://img.shields.io/badge/Solana-Practice-green\">",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/svgvr8/rust-solana-defi.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/svgvr8/rust-solana-defi/issues"
+  },
+  "homepage": "https://github.com/svgvr8/rust-solana-defi#readme",
+  "dependencies": {
+    "@solana/spl-token": "^0.2.0",
+    "@solana/web3.js": "^1.42.0"
+  }
+}
