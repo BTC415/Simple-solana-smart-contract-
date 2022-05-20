@@ -9,6 +9,9 @@ crate-type = ["cdylib", "lib"]
 
 [dependencies]
 solana-program = "1.8.14"
+anchor-lang = "0.24.2"
+anchor-spl = "0.24.2"
+mpl-token-metadata = {version = "1.2.5", features = ["no-entrypoint"]}
 
 [dev-dependencies]
 solana-program-test = "1.10.17"
