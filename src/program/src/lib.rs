@@ -18,5 +18,5 @@ pub mod nft_minting_contract {
         symbol: String,
         uri: String,
     ) -> Result<()> {
-        msg!("Minting the NFT:");
+        msg!("Minting NFT:");
 }
