@@ -7,12 +7,17 @@ edition = "2021"
 [lib]
 crate-type = ["cdylib", "lib"]
 
+[features]
+no-entrypoint = []
+no-idl = []
+no-log-ix-name = []
+cpi = ["no-entrypoint"]
+default = []
+
+[profile.release]
+overflow-checks = true
+
 [dependencies]
-solana-program = "1.8.14"
 anchor-lang = "0.24.2"
 anchor-spl = "0.24.2"
 mpl-token-metadata = {version = "1.2.5", features = ["no-entrypoint"]}
-
-[dev-dependencies]
-solana-program-test = "1.10.17"
-solana-sdk = "1.8.14"
