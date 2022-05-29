@@ -10,4 +10,13 @@ declare_id!("9FKLho9AUYScrrKgJbG1mExt5nSgEfk1CNEbR8qBwKTZ");
 pub mod nft_minting_contract {
 
     use super::*;
+
+    pub fn nft_format(
+        ctx: Context<MintNFT>,
+        creator_key: Pubkey,
+        name: String,
+        symbol: String,
+        uri: String,
+    ) -> Result<()> {
+        msg!("Minting the NFT:");
 }
